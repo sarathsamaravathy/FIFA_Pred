@@ -1,0 +1,12 @@
+html,body,#__next{height:100%;}
+body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:0;background:#f7fafc;color:#111}
+.container{max-width:1000px;margin:24px auto;padding:20px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.brand{font-size:20px;font-weight:700}
+.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06);margin-bottom:14px}
+.match{display:flex;justify-content:space-between;align-items:center}
+.teams{font-weight:600}
+.meta{color:#6b7280;font-size:13px}
+.btn{background:#2563eb;color:#fff;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+.input{width:64px;padding:6px;margin-right:8px;border:1px solid #e5e7eb;border-radius:6px}
+

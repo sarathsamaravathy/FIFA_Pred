@@ -1,0 +1,1256 @@
+[
+  {
+    "id": 1,
+    "fifa_id": 1,
+    "datetime": "2026-06-11T19:00:00Z",
+    "home_team": {
+      "country": "Mexico"
+      ,"goals": 2
+    },
+    "away_team": {
+      "country": "South Africa"
+      ,"goals": 1
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 2,
+    "fifa_id": 2,
+    "datetime": "2026-06-12T02:00:00Z",
+    "home_team": {
+      "country": "Korea Republic"
+      ,"goals": 1
+    },
+    "away_team": {
+      "country": "Czechia"
+      ,"goals": 1
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 3,
+    "fifa_id": 3,
+    "datetime": "2026-06-12T19:00:00Z",
+    "home_team": {
+      "country": "Canada"
+      ,"goals": 3
+    },
+    "away_team": {
+      "country": "Bosnia and Herzegovina"
+      ,"goals": 0
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 4,
+    "fifa_id": 4,
+    "datetime": "2026-06-13T01:00:00Z",
+    "home_team": {
+      "country": "United States"
+    },
+    "away_team": {
+      "country": "Paraguay"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 5,
+    "fifa_id": 5,
+    "datetime": "2026-06-14T01:00:00Z",
+    "home_team": {
+      "country": "Haiti"
+    },
+    "away_team": {
+      "country": "Scotland"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 6,
+    "fifa_id": 6,
+    "datetime": "2026-06-14T04:00:00Z",
+    "home_team": {
+      "country": "Australia"
+    },
+    "away_team": {
+      "country": "Turkiye"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 7,
+    "fifa_id": 7,
+    "datetime": "2026-06-13T22:00:00Z",
+    "home_team": {
+      "country": "Brazil"
+    },
+    "away_team": {
+      "country": "Morocco"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 8,
+    "fifa_id": 8,
+    "datetime": "2026-06-13T19:00:00Z",
+    "home_team": {
+      "country": "Qatar"
+    },
+    "away_team": {
+      "country": "Switzerland"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 9,
+    "fifa_id": 9,
+    "datetime": "2026-06-14T23:00:00Z",
+    "home_team": {
+      "country": "Cote d'Ivoire"
+    },
+    "away_team": {
+      "country": "Ecuador"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 10,
+    "fifa_id": 10,
+    "datetime": "2026-06-14T17:00:00Z",
+    "home_team": {
+      "country": "Germany"
+    },
+    "away_team": {
+      "country": "Curacao"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 11,
+    "fifa_id": 11,
+    "datetime": "2026-06-14T20:00:00Z",
+    "home_team": {
+      "country": "Netherlands"
+    },
+    "away_team": {
+      "country": "Japan"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 12,
+    "fifa_id": 12,
+    "datetime": "2026-06-15T02:00:00Z",
+    "home_team": {
+      "country": "Sweden"
+    },
+    "away_team": {
+      "country": "Tunisia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 13,
+    "fifa_id": 13,
+    "datetime": "2026-06-15T22:00:00Z",
+    "home_team": {
+      "country": "Saudi Arabia"
+    },
+    "away_team": {
+      "country": "Uruguay"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 14,
+    "fifa_id": 14,
+    "datetime": "2026-06-15T16:00:00Z",
+    "home_team": {
+      "country": "Spain"
+    },
+    "away_team": {
+      "country": "Cabo Verde"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 15,
+    "fifa_id": 15,
+    "datetime": "2026-06-16T01:00:00Z",
+    "home_team": {
+      "country": "IR Iran"
+    },
+    "away_team": {
+      "country": "New Zealand"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 16,
+    "fifa_id": 16,
+    "datetime": "2026-06-15T19:00:00Z",
+    "home_team": {
+      "country": "Belgium"
+    },
+    "away_team": {
+      "country": "Egypt"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 17,
+    "fifa_id": 17,
+    "datetime": "2026-06-16T19:00:00Z",
+    "home_team": {
+      "country": "France"
+    },
+    "away_team": {
+      "country": "Senegal"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 18,
+    "fifa_id": 18,
+    "datetime": "2026-06-16T22:00:00Z",
+    "home_team": {
+      "country": "Iraq"
+    },
+    "away_team": {
+      "country": "Norway"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 19,
+    "fifa_id": 19,
+    "datetime": "2026-06-17T01:00:00Z",
+    "home_team": {
+      "country": "Argentina"
+    },
+    "away_team": {
+      "country": "Algeria"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 20,
+    "fifa_id": 20,
+    "datetime": "2026-06-17T04:00:00Z",
+    "home_team": {
+      "country": "Austria"
+    },
+    "away_team": {
+      "country": "Jordan"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 21,
+    "fifa_id": 21,
+    "datetime": "2026-06-17T23:00:00Z",
+    "home_team": {
+      "country": "Ghana"
+    },
+    "away_team": {
+      "country": "Panama"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 22,
+    "fifa_id": 22,
+    "datetime": "2026-06-17T20:00:00Z",
+    "home_team": {
+      "country": "England"
+    },
+    "away_team": {
+      "country": "Croatia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 23,
+    "fifa_id": 23,
+    "datetime": "2026-06-17T17:00:00Z",
+    "home_team": {
+      "country": "Portugal"
+    },
+    "away_team": {
+      "country": "Congo DR"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 24,
+    "fifa_id": 24,
+    "datetime": "2026-06-18T02:00:00Z",
+    "home_team": {
+      "country": "Uzbekistan"
+    },
+    "away_team": {
+      "country": "Colombia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 25,
+    "fifa_id": 25,
+    "datetime": "2026-06-18T16:00:00Z",
+    "home_team": {
+      "country": "Czechia"
+    },
+    "away_team": {
+      "country": "South Africa"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 26,
+    "fifa_id": 26,
+    "datetime": "2026-06-18T19:00:00Z",
+    "home_team": {
+      "country": "Switzerland"
+    },
+    "away_team": {
+      "country": "Bosnia and Herzegovina"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 27,
+    "fifa_id": 27,
+    "datetime": "2026-06-18T22:00:00Z",
+    "home_team": {
+      "country": "Canada"
+    },
+    "away_team": {
+      "country": "Qatar"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 28,
+    "fifa_id": 28,
+    "datetime": "2026-06-19T01:00:00Z",
+    "home_team": {
+      "country": "Mexico"
+    },
+    "away_team": {
+      "country": "Korea Republic"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 29,
+    "fifa_id": 29,
+    "datetime": "2026-06-20T01:00:00Z",
+    "home_team": {
+      "country": "Brazil"
+    },
+    "away_team": {
+      "country": "Haiti"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 30,
+    "fifa_id": 30,
+    "datetime": "2026-06-19T22:00:00Z",
+    "home_team": {
+      "country": "Scotland"
+    },
+    "away_team": {
+      "country": "Morocco"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 31,
+    "fifa_id": 31,
+    "datetime": "2026-06-20T03:00:00Z",
+    "home_team": {
+      "country": "Turkiye"
+    },
+    "away_team": {
+      "country": "Paraguay"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 32,
+    "fifa_id": 32,
+    "datetime": "2026-06-19T19:00:00Z",
+    "home_team": {
+      "country": "United States"
+    },
+    "away_team": {
+      "country": "Australia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 33,
+    "fifa_id": 33,
+    "datetime": "2026-06-20T20:00:00Z",
+    "home_team": {
+      "country": "Germany"
+    },
+    "away_team": {
+      "country": "Cote d'Ivoire"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 34,
+    "fifa_id": 34,
+    "datetime": "2026-06-21T00:00:00Z",
+    "home_team": {
+      "country": "Ecuador"
+    },
+    "away_team": {
+      "country": "Curacao"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 35,
+    "fifa_id": 35,
+    "datetime": "2026-06-20T17:00:00Z",
+    "home_team": {
+      "country": "Netherlands"
+    },
+    "away_team": {
+      "country": "Sweden"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 36,
+    "fifa_id": 36,
+    "datetime": "2026-06-21T04:00:00Z",
+    "home_team": {
+      "country": "Tunisia"
+    },
+    "away_team": {
+      "country": "Japan"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 37,
+    "fifa_id": 37,
+    "datetime": "2026-06-21T22:00:00Z",
+    "home_team": {
+      "country": "Uruguay"
+    },
+    "away_team": {
+      "country": "Cabo Verde"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 38,
+    "fifa_id": 38,
+    "datetime": "2026-06-21T16:00:00Z",
+    "home_team": {
+      "country": "Spain"
+    },
+    "away_team": {
+      "country": "Saudi Arabia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 39,
+    "fifa_id": 39,
+    "datetime": "2026-06-21T19:00:00Z",
+    "home_team": {
+      "country": "Belgium"
+    },
+    "away_team": {
+      "country": "IR Iran"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 40,
+    "fifa_id": 40,
+    "datetime": "2026-06-22T01:00:00Z",
+    "home_team": {
+      "country": "New Zealand"
+    },
+    "away_team": {
+      "country": "Egypt"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 41,
+    "fifa_id": 41,
+    "datetime": "2026-06-23T00:00:00Z",
+    "home_team": {
+      "country": "Norway"
+    },
+    "away_team": {
+      "country": "Senegal"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 42,
+    "fifa_id": 42,
+    "datetime": "2026-06-22T21:00:00Z",
+    "home_team": {
+      "country": "France"
+    },
+    "away_team": {
+      "country": "Iraq"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 43,
+    "fifa_id": 43,
+    "datetime": "2026-06-22T17:00:00Z",
+    "home_team": {
+      "country": "Argentina"
+    },
+    "away_team": {
+      "country": "Austria"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 44,
+    "fifa_id": 44,
+    "datetime": "2026-06-23T03:00:00Z",
+    "home_team": {
+      "country": "Jordan"
+    },
+    "away_team": {
+      "country": "Algeria"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 45,
+    "fifa_id": 45,
+    "datetime": "2026-06-23T20:00:00Z",
+    "home_team": {
+      "country": "England"
+    },
+    "away_team": {
+      "country": "Ghana"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 46,
+    "fifa_id": 46,
+    "datetime": "2026-06-23T23:00:00Z",
+    "home_team": {
+      "country": "Panama"
+    },
+    "away_team": {
+      "country": "Croatia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 47,
+    "fifa_id": 47,
+    "datetime": "2026-06-23T17:00:00Z",
+    "home_team": {
+      "country": "Portugal"
+    },
+    "away_team": {
+      "country": "Uzbekistan"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 48,
+    "fifa_id": 48,
+    "datetime": "2026-06-24T02:00:00Z",
+    "home_team": {
+      "country": "Colombia"
+    },
+    "away_team": {
+      "country": "Congo DR"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 49,
+    "fifa_id": 49,
+    "datetime": "2026-06-24T22:00:00Z",
+    "home_team": {
+      "country": "Scotland"
+    },
+    "away_team": {
+      "country": "Brazil"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 50,
+    "fifa_id": 50,
+    "datetime": "2026-06-24T22:00:00Z",
+    "home_team": {
+      "country": "Morocco"
+    },
+    "away_team": {
+      "country": "Haiti"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 51,
+    "fifa_id": 51,
+    "datetime": "2026-06-24T19:00:00Z",
+    "home_team": {
+      "country": "Switzerland"
+    },
+    "away_team": {
+      "country": "Canada"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 52,
+    "fifa_id": 52,
+    "datetime": "2026-06-24T19:00:00Z",
+    "home_team": {
+      "country": "Bosnia and Herzegovina"
+    },
+    "away_team": {
+      "country": "Qatar"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 53,
+    "fifa_id": 53,
+    "datetime": "2026-06-25T01:00:00Z",
+    "home_team": {
+      "country": "Czechia"
+    },
+    "away_team": {
+      "country": "Mexico"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 54,
+    "fifa_id": 54,
+    "datetime": "2026-06-25T01:00:00Z",
+    "home_team": {
+      "country": "South Africa"
+    },
+    "away_team": {
+      "country": "Korea Republic"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 55,
+    "fifa_id": 55,
+    "datetime": "2026-06-25T20:00:00Z",
+    "home_team": {
+      "country": "Curacao"
+    },
+    "away_team": {
+      "country": "Cote d'Ivoire"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 56,
+    "fifa_id": 56,
+    "datetime": "2026-06-25T20:00:00Z",
+    "home_team": {
+      "country": "Ecuador"
+    },
+    "away_team": {
+      "country": "Germany"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 57,
+    "fifa_id": 57,
+    "datetime": "2026-06-25T23:00:00Z",
+    "home_team": {
+      "country": "Japan"
+    },
+    "away_team": {
+      "country": "Sweden"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 58,
+    "fifa_id": 58,
+    "datetime": "2026-06-25T23:00:00Z",
+    "home_team": {
+      "country": "Tunisia"
+    },
+    "away_team": {
+      "country": "Netherlands"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 59,
+    "fifa_id": 59,
+    "datetime": "2026-06-26T02:00:00Z",
+    "home_team": {
+      "country": "Turkiye"
+    },
+    "away_team": {
+      "country": "United States"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 60,
+    "fifa_id": 60,
+    "datetime": "2026-06-26T02:00:00Z",
+    "home_team": {
+      "country": "Paraguay"
+    },
+    "away_team": {
+      "country": "Australia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 61,
+    "fifa_id": 61,
+    "datetime": "2026-06-26T19:00:00Z",
+    "home_team": {
+      "country": "Norway"
+    },
+    "away_team": {
+      "country": "France"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 62,
+    "fifa_id": 62,
+    "datetime": "2026-06-26T19:00:00Z",
+    "home_team": {
+      "country": "Senegal"
+    },
+    "away_team": {
+      "country": "Iraq"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 63,
+    "fifa_id": 63,
+    "datetime": "2026-06-27T03:00:00Z",
+    "home_team": {
+      "country": "Egypt"
+    },
+    "away_team": {
+      "country": "IR Iran"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 64,
+    "fifa_id": 64,
+    "datetime": "2026-06-27T03:00:00Z",
+    "home_team": {
+      "country": "New Zealand"
+    },
+    "away_team": {
+      "country": "Belgium"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 65,
+    "fifa_id": 65,
+    "datetime": "2026-06-27T00:00:00Z",
+    "home_team": {
+      "country": "Cabo Verde"
+    },
+    "away_team": {
+      "country": "Saudi Arabia"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 66,
+    "fifa_id": 66,
+    "datetime": "2026-06-27T00:00:00Z",
+    "home_team": {
+      "country": "Uruguay"
+    },
+    "away_team": {
+      "country": "Spain"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 67,
+    "fifa_id": 67,
+    "datetime": "2026-06-27T21:00:00Z",
+    "home_team": {
+      "country": "Panama"
+    },
+    "away_team": {
+      "country": "England"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 68,
+    "fifa_id": 68,
+    "datetime": "2026-06-27T21:00:00Z",
+    "home_team": {
+      "country": "Croatia"
+    },
+    "away_team": {
+      "country": "Ghana"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 69,
+    "fifa_id": 69,
+    "datetime": "2026-06-28T02:00:00Z",
+    "home_team": {
+      "country": "Algeria"
+    },
+    "away_team": {
+      "country": "Austria"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 70,
+    "fifa_id": 70,
+    "datetime": "2026-06-28T02:00:00Z",
+    "home_team": {
+      "country": "Jordan"
+    },
+    "away_team": {
+      "country": "Argentina"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 71,
+    "fifa_id": 71,
+    "datetime": "2026-06-27T23:30:00Z",
+    "home_team": {
+      "country": "Colombia"
+    },
+    "away_team": {
+      "country": "Portugal"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 72,
+    "fifa_id": 72,
+    "datetime": "2026-06-27T23:30:00Z",
+    "home_team": {
+      "country": "Congo DR"
+    },
+    "away_team": {
+      "country": "Uzbekistan"
+    },
+    "stage_name": "group-stage"
+  },
+  {
+    "id": 73,
+    "fifa_id": 73,
+    "datetime": "2026-06-28T19:00:00Z",
+    "home_team": {
+      "country": "Group A runners-up"
+    },
+    "away_team": {
+      "country": "Group B runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 74,
+    "fifa_id": 74,
+    "datetime": "2026-06-29T20:30:00Z",
+    "home_team": {
+      "country": "Group E winners"
+    },
+    "away_team": {
+      "country": "Group A/B/C/D/F third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 75,
+    "fifa_id": 75,
+    "datetime": "2026-06-30T01:00:00Z",
+    "home_team": {
+      "country": "Group F winners"
+    },
+    "away_team": {
+      "country": "Group C runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 76,
+    "fifa_id": 76,
+    "datetime": "2026-06-29T17:00:00Z",
+    "home_team": {
+      "country": "Group C winners"
+    },
+    "away_team": {
+      "country": "Group F runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 77,
+    "fifa_id": 77,
+    "datetime": "2026-06-30T21:00:00Z",
+    "home_team": {
+      "country": "Group I winners"
+    },
+    "away_team": {
+      "country": "Group C/D/F/G/H third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 78,
+    "fifa_id": 78,
+    "datetime": "2026-06-30T17:00:00Z",
+    "home_team": {
+      "country": "Group E runners-up"
+    },
+    "away_team": {
+      "country": "Group I runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 79,
+    "fifa_id": 79,
+    "datetime": "2026-07-01T01:00:00Z",
+    "home_team": {
+      "country": "Group A winners"
+    },
+    "away_team": {
+      "country": "Group C/E/F/H/I third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 80,
+    "fifa_id": 80,
+    "datetime": "2026-07-01T16:00:00Z",
+    "home_team": {
+      "country": "Group L winners"
+    },
+    "away_team": {
+      "country": "Group E/H/I/J/K third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 81,
+    "fifa_id": 81,
+    "datetime": "2026-07-02T00:00:00Z",
+    "home_team": {
+      "country": "Group D winners"
+    },
+    "away_team": {
+      "country": "Group B/E/F/I/J third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 82,
+    "fifa_id": 82,
+    "datetime": "2026-07-01T20:00:00Z",
+    "home_team": {
+      "country": "Group G winners"
+    },
+    "away_team": {
+      "country": "Group A/E/H/I/J third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 83,
+    "fifa_id": 83,
+    "datetime": "2026-07-02T23:00:00Z",
+    "home_team": {
+      "country": "Group K runners-up"
+    },
+    "away_team": {
+      "country": "Group L runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 84,
+    "fifa_id": 84,
+    "datetime": "2026-07-02T19:00:00Z",
+    "home_team": {
+      "country": "Group H winners"
+    },
+    "away_team": {
+      "country": "Group J runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 85,
+    "fifa_id": 85,
+    "datetime": "2026-07-03T03:00:00Z",
+    "home_team": {
+      "country": "Group B winners"
+    },
+    "away_team": {
+      "country": "Group E/F/G/I/J third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 86,
+    "fifa_id": 86,
+    "datetime": "2026-07-03T22:00:00Z",
+    "home_team": {
+      "country": "Group J winners"
+    },
+    "away_team": {
+      "country": "Group H runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 87,
+    "fifa_id": 87,
+    "datetime": "2026-07-04T01:30:00Z",
+    "home_team": {
+      "country": "Group K winners"
+    },
+    "away_team": {
+      "country": "Group D/E/I/J/L third place"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 88,
+    "fifa_id": 88,
+    "datetime": "2026-07-03T18:00:00Z",
+    "home_team": {
+      "country": "Group D runners-up"
+    },
+    "away_team": {
+      "country": "Group G runners-up"
+    },
+    "stage_name": "round-of-32"
+  },
+  {
+    "id": 89,
+    "fifa_id": 89,
+    "datetime": "2026-07-04T21:00:00Z",
+    "home_team": {
+      "country": "Winner Match 74"
+    },
+    "away_team": {
+      "country": "Winner Match 77"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 90,
+    "fifa_id": 90,
+    "datetime": "2026-07-04T17:00:00Z",
+    "home_team": {
+      "country": "Winner Match 73"
+    },
+    "away_team": {
+      "country": "Winner Match 75"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 91,
+    "fifa_id": 91,
+    "datetime": "2026-07-05T20:00:00Z",
+    "home_team": {
+      "country": "Winner Match 76"
+    },
+    "away_team": {
+      "country": "Winner Match 78"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 92,
+    "fifa_id": 92,
+    "datetime": "2026-07-06T00:00:00Z",
+    "home_team": {
+      "country": "Winner Match 79"
+    },
+    "away_team": {
+      "country": "Winner Match 80"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 93,
+    "fifa_id": 93,
+    "datetime": "2026-07-06T19:00:00Z",
+    "home_team": {
+      "country": "Winner Match 83"
+    },
+    "away_team": {
+      "country": "Winner Match 84"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 94,
+    "fifa_id": 94,
+    "datetime": "2026-07-07T00:00:00Z",
+    "home_team": {
+      "country": "Winner Match 81"
+    },
+    "away_team": {
+      "country": "Winner Match 82"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 95,
+    "fifa_id": 95,
+    "datetime": "2026-07-07T16:00:00Z",
+    "home_team": {
+      "country": "Winner Match 86"
+    },
+    "away_team": {
+      "country": "Winner Match 88"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 96,
+    "fifa_id": 96,
+    "datetime": "2026-07-07T20:00:00Z",
+    "home_team": {
+      "country": "Winner Match 85"
+    },
+    "away_team": {
+      "country": "Winner Match 87"
+    },
+    "stage_name": "round-of-16"
+  },
+  {
+    "id": 97,
+    "fifa_id": 97,
+    "datetime": "2026-07-09T20:00:00Z",
+    "home_team": {
+      "country": "Winner Match 89"
+    },
+    "away_team": {
+      "country": "Winner Match 90"
+    },
+    "stage_name": "quarter-finals"
+  },
+  {
+    "id": 98,
+    "fifa_id": 98,
+    "datetime": "2026-07-10T19:00:00Z",
+    "home_team": {
+      "country": "Winner Match 93"
+    },
+    "away_team": {
+      "country": "Winner Match 94"
+    },
+    "stage_name": "quarter-finals"
+  },
+  {
+    "id": 99,
+    "fifa_id": 99,
+    "datetime": "2026-07-11T21:00:00Z",
+    "home_team": {
+      "country": "Winner Match 91"
+    },
+    "away_team": {
+      "country": "Winner Match 92"
+    },
+    "stage_name": "quarter-finals"
+  },
+  {
+    "id": 100,
+    "fifa_id": 100,
+    "datetime": "2026-07-12T01:00:00Z",
+    "home_team": {
+      "country": "Winner Match 95"
+    },
+    "away_team": {
+      "country": "Winner Match 96"
+    },
+    "stage_name": "quarter-finals"
+  },
+  {
+    "id": 101,
+    "fifa_id": 101,
+    "datetime": "2026-07-14T19:00:00Z",
+    "home_team": {
+      "country": "Winner Match 97"
+    },
+    "away_team": {
+      "country": "Winner Match 98"
+    },
+    "stage_name": "semi-finals"
+  },
+  {
+    "id": 102,
+    "fifa_id": 102,
+    "datetime": "2026-07-15T19:00:00Z",
+    "home_team": {
+      "country": "Winner Match 99"
+    },
+    "away_team": {
+      "country": "Winner Match 100"
+    },
+    "stage_name": "semi-finals"
+  },
+  {
+    "id": 103,
+    "fifa_id": 103,
+    "datetime": "2026-07-18T21:00:00Z",
+    "home_team": {
+      "country": "Loser Match 101"
+    },
+    "away_team": {
+      "country": "Loser Match 102"
+    },
+    "stage_name": "third-place"
+  },
+  {
+    "id": 104,
+    "fifa_id": 104,
+    "datetime": "2026-07-19T19:00:00Z",
+    "home_team": {
+      "country": "Winner Match 101"
+    },
+    "away_team": {
+      "country": "Winner Match 102"
+    },
+    "stage_name": "final"
+  }
+]
