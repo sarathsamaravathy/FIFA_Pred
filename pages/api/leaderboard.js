@@ -65,21 +65,13 @@ export default async function handler(req, res) {
       const key = `predictions:${id}`
       let predsRaw = null
       try {
-        const r = await upstashCommand(['JSON.GET', key])
-        // Upstash REST can return different shapes: { results: [{ result: <val> }] } or { result: <val> }
-        if (r) {
-          if (r.results && Array.isArray(r.results) && r.results[0] && typeof r.results[0].result !== 'undefined') predsRaw = r.results[0].result
-          else if (typeof r.result !== 'undefined') predsRaw = r.result
-          else predsRaw = r
-        }
+        // try list-based LRANGE first
+        const r = await upstashListRange(key, 0, -1)
+        if (r) predsRaw = r.result || r
       } catch (e) {
         try {
           const r2 = await upstashCommand(['LRANGE', key, '0', '-1'])
-          if (r2) {
-            if (r2.results && Array.isArray(r2.results) && r2.results[0] && typeof r2.results[0].result !== 'undefined') predsRaw = r2.results[0].result
-            else if (typeof r2.result !== 'undefined') predsRaw = r2.result
-            else predsRaw = r2
-          }
+          if (r2) predsRaw = r2.result || r2
         } catch (e2) {
           predsRaw = null
         }

@@ -1,4 +1,4 @@
-import { upstashCommand } from '../../../../lib/upstash'
+import { upstashCommand, upstashListRange } from '../../../../lib/upstash'
 import fs from 'fs'
 import path from 'path'
 
@@ -29,12 +29,8 @@ export default async function handler(req, res) {
       // fallback to Upstash lists if available
       if (!predsRaw && process.env.UPSTASH_REST_URL && process.env.UPSTASH_REST_TOKEN) {
         try {
-          const r = await upstashCommand(['LRANGE', `predictions:${id}`, '0', '-1'])
-          if (r) {
-            if (r.results && Array.isArray(r.results) && r.results[0] && typeof r.results[0].result !== 'undefined') predsRaw = r.results[0].result
-            else if (typeof r.result !== 'undefined') predsRaw = r.result
-            else predsRaw = r
-          }
+          const r = await upstashListRange(`predictions:${id}`, 0, -1)
+          if (r) predsRaw = r.result || r
         } catch (e) {
           predsRaw = null
         }

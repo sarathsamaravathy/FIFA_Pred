@@ -1,6 +1,6 @@
 import { getSession } from 'next-auth/react'
 import { getToken } from 'next-auth/jwt'
-import { upstashCommand } from '../../lib/upstash'
+import { upstashCommand, upstashListPush, upstashListRange } from '../../lib/upstash'
 
 function calcPoints(match, pred) {
   // match has status, stage_name; use simple rules
@@ -43,19 +43,13 @@ export default async function handler(req, res) {
     const userName = session?.user?.name || token?.name || null
     const pred = { user: userEmail, name: userName, homeGoals, awayGoals, winner, ts: new Date().toISOString() }
 
-    // store in redis: key predictions:{match_id}
+    // store in redis: key predictions:{match_id} using list RPUSH
     const key = `predictions:${match.fifa_id || match.id}`
-    // Try to append to JSON array if present, otherwise set a new array. Fallback to RPUSH for non-JSON storage.
     try {
-      await upstashCommand(['JSON.ARRAPPEND', key, '.', JSON.stringify(pred)])
+      await upstashListPush(key, JSON.stringify(pred))
     } catch (e) {
-      try {
-        // set as array
-        await upstashCommand(['JSON.SET', key, '.', JSON.stringify([pred])])
-      } catch (e2) {
-        // final fallback: push to list
-        await upstashCommand(['RPUSH', key, JSON.stringify(pred)])
-      }
+      // as a last resort try generic command endpoint
+      await upstashCommand(['RPUSH', key, JSON.stringify(pred)])
     }
 
     return res.json({ success: true })
@@ -88,22 +82,26 @@ export default async function handler(req, res) {
       const id = m.fifa_id || m.id
       const key = `predictions:${id}`
       try {
-        const r = await upstashCommand(['JSON.GET', key])
+        // read from list storage
+        const r = await upstashListRange(key, 0, -1)
         const raw = r && (r.result || r)
         if (!raw) continue
         let arr = []
-        try { arr = JSON.parse(raw) } catch (e) { if (Array.isArray(raw)) arr = raw.map(p=>JSON.parse(p)) }
-        // find latest prediction for this user
+        if (Array.isArray(raw)) arr = raw.map(p => (typeof p === 'string' ? JSON.parse(p) : p))
+        else if (typeof raw === 'string') {
+          try { arr = JSON.parse(raw) } catch (e) { arr = [] }
+        }
         const userPreds = arr.filter(p => (p.user || p.email) === userEmail)
         if (userPreds.length > 0) {
           const last = userPreds[userPreds.length-1]
           result[id] = { home: last.homeGoals, away: last.awayGoals }
         }
       } catch (e) {
+        // fallback: try generic LRANGE endpoint
         try {
           const r2 = await upstashCommand(['LRANGE', key, '0', '-1'])
           const arr = r2 && (r2.result || r2) || []
-          const parsed = arr.map(x=>JSON.parse(x))
+          const parsed = Array.isArray(arr) ? arr.map(x => (typeof x === 'string' ? JSON.parse(x) : x)) : []
           const userPreds = parsed.filter(p => (p.user || p.email) === userEmail)
           if (userPreds.length > 0) {
             const last = userPreds[userPreds.length-1]
